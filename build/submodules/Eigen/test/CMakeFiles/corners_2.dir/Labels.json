@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/submodules/Eigen/test/corners.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "corners_2"
+	}
+}

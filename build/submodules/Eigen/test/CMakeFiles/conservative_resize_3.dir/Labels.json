@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/submodules/Eigen/test/conservative_resize.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "conservative_resize_3"
+	}
+}

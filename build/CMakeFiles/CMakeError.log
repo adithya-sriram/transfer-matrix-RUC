@@ -1,0 +1,556 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7b1ff/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7b1ff.dir/build.make CMakeFiles/cmTC_7b1ff.dir/build
+Building CXX object CMakeFiles/cmTC_7b1ff.dir/src.cxx.o
+/usr/bin/g++ -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk   -Wlogical-op -MD -MT CMakeFiles/cmTC_7b1ff.dir/src.cxx.o -MF CMakeFiles/cmTC_7b1ff.dir/src.cxx.o.d -o CMakeFiles/cmTC_7b1ff.dir/src.cxx.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.cxx"
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_7b1ff.dir/src.cxx.o] Error 1
+make: *** [cmTC_7b1ff/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc422/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fc422.dir/build.make CMakeFiles/cmTC_fc422.dir/build
+Building CXX object CMakeFiles/cmTC_fc422.dir/src.cxx.o
+/usr/bin/g++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk   -wd981 -MD -MT CMakeFiles/cmTC_fc422.dir/src.cxx.o -MF CMakeFiles/cmTC_fc422.dir/src.cxx.o.d -o CMakeFiles/cmTC_fc422.dir/src.cxx.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unknown argument: '-wd981'
+make[1]: *** [CMakeFiles/cmTC_fc422.dir/src.cxx.o] Error 1
+make: *** [cmTC_fc422/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e5630/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e5630.dir/build.make CMakeFiles/cmTC_e5630.dir/build
+Building CXX object CMakeFiles/cmTC_e5630.dir/src.cxx.o
+/usr/bin/g++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk   -wd2304 -MD -MT CMakeFiles/cmTC_e5630.dir/src.cxx.o -MF CMakeFiles/cmTC_e5630.dir/src.cxx.o.d -o CMakeFiles/cmTC_e5630.dir/src.cxx.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unknown argument: '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_e5630.dir/src.cxx.o] Error 1
+make: *** [cmTC_e5630/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4c9af/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4c9af.dir/build.make CMakeFiles/cmTC_4c9af.dir/build
+Building CXX object CMakeFiles/cmTC_4c9af.dir/src.cxx.o
+/usr/bin/g++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk   -strict-ansi -MD -MT CMakeFiles/cmTC_4c9af.dir/src.cxx.o -MF CMakeFiles/cmTC_4c9af.dir/src.cxx.o.d -o CMakeFiles/cmTC_4c9af.dir/src.cxx.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unknown argument: '-strict-ansi'
+make[1]: *** [CMakeFiles/cmTC_4c9af.dir/src.cxx.o] Error 1
+make: *** [cmTC_4c9af/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7450a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7450a.dir/build.make CMakeFiles/cmTC_7450a.dir/build
+Building CXX object CMakeFiles/cmTC_7450a.dir/src.cxx.o
+/usr/bin/g++ -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk   -fopenmp -MD -MT CMakeFiles/cmTC_7450a.dir/src.cxx.o -MF CMakeFiles/cmTC_7450a.dir/src.cxx.o.d -o CMakeFiles/cmTC_7450a.dir/src.cxx.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_7450a.dir/src.cxx.o] Error 1
+make: *** [cmTC_7450a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test SCOTCH_Num_4 failed with the following compile output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc968/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fc968.dir/build.make CMakeFiles/cmTC_fc968.dir/build
+Building C object CMakeFiles/cmTC_fc968.dir/src.c.o
+/usr/bin/gcc -DSCOTCH_Num_4  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_fc968.dir/src.c.o -MF CMakeFiles/cmTC_fc968.dir/src.c.o.d -o CMakeFiles/cmTC_fc968.dir/src.c.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: 'scotch.h' file not found
+#include <scotch.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fc968.dir/src.c.o] Error 1
+make: *** [cmTC_fc968/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 4)
+    return 0;
+  else
+    return 1;
+}
+
+Performing C SOURCE FILE Test SCOTCH_Num_8 failed with the following compile output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f7a18/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f7a18.dir/build.make CMakeFiles/cmTC_f7a18.dir/build
+Building C object CMakeFiles/cmTC_f7a18.dir/src.c.o
+/usr/bin/gcc -DSCOTCH_Num_8  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_f7a18.dir/src.c.o -MF CMakeFiles/cmTC_f7a18.dir/src.c.o.d -o CMakeFiles/cmTC_f7a18.dir/src.c.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: 'scotch.h' file not found
+#include <scotch.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f7a18.dir/src.c.o] Error 1
+make: *** [cmTC_f7a18/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 8)
+    return 0;
+  else
+    return 1;
+}
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0ee0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a0ee0.dir/build.make CMakeFiles/cmTC_a0ee0.dir/build
+Building C object CMakeFiles/cmTC_a0ee0.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_a0ee0.dir/test_mpi.c.o -MF CMakeFiles/cmTC_a0ee0.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_a0ee0.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a0ee0.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_a0ee0/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_403d5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_403d5.dir/build.make CMakeFiles/cmTC_403d5.dir/build
+Building CXX object CMakeFiles/cmTC_403d5.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_403d5.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_403d5.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_403d5.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_403d5.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_403d5/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c9023/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c9023.dir/build.make CMakeFiles/cmTC_c9023.dir/build
+Building C object CMakeFiles/cmTC_c9023.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_c9023.dir/test_mpi.c.o -MF CMakeFiles/cmTC_c9023.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_c9023.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c9023.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_c9023/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6fa9a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6fa9a.dir/build.make CMakeFiles/cmTC_6fa9a.dir/build
+Building CXX object CMakeFiles/cmTC_6fa9a.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_6fa9a.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_6fa9a.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_6fa9a.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6fa9a.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_6fa9a/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test PTSCOTCH_Num_4 failed with the following compile output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5668b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5668b.dir/build.make CMakeFiles/cmTC_5668b.dir/build
+Building C object CMakeFiles/cmTC_5668b.dir/src.c.o
+/usr/bin/gcc -DPTSCOTCH_Num_4  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_5668b.dir/src.c.o -MF CMakeFiles/cmTC_5668b.dir/src.c.o.d -o CMakeFiles/cmTC_5668b.dir/src.c.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: 'ptscotch.h' file not found
+#include <ptscotch.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5668b.dir/src.c.o] Error 1
+make: *** [cmTC_5668b/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <ptscotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 4)
+    return 0;
+  else
+    return 1;
+}
+
+Performing C SOURCE FILE Test PTSCOTCH_Num_8 failed with the following compile output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f891/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f891.dir/build.make CMakeFiles/cmTC_8f891.dir/build
+Building C object CMakeFiles/cmTC_8f891.dir/src.c.o
+/usr/bin/gcc -DPTSCOTCH_Num_8  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_8f891.dir/src.c.o -MF CMakeFiles/cmTC_8f891.dir/src.c.o.d -o CMakeFiles/cmTC_8f891.dir/src.c.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: 'ptscotch.h' file not found
+#include <ptscotch.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8f891.dir/src.c.o] Error 1
+make: *** [cmTC_8f891/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <ptscotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 8)
+    return 0;
+  else
+    return 1;
+}
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30cd1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_30cd1.dir/build.make CMakeFiles/cmTC_30cd1.dir/build
+Building CXX object CMakeFiles/cmTC_30cd1.dir/OpenMPCheckVersion.cpp.o
+/usr/bin/g++   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_30cd1.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_30cd1.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_30cd1.dir/OpenMPCheckVersion.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_30cd1.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_30cd1/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_08839/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_08839.dir/build.make CMakeFiles/cmTC_08839.dir/build
+Building C object CMakeFiles/cmTC_08839.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_08839.dir/test_mpi.c.o -MF CMakeFiles/cmTC_08839.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_08839.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_08839.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_08839/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f926/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7f926.dir/build.make CMakeFiles/cmTC_7f926.dir/build
+Building CXX object CMakeFiles/cmTC_7f926.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_7f926.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_7f926.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_7f926.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7f926.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_7f926/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_593eb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_593eb.dir/build.make CMakeFiles/cmTC_593eb.dir/build
+Building C object CMakeFiles/cmTC_593eb.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_593eb.dir/test_mpi.c.o -MF CMakeFiles/cmTC_593eb.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_593eb.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_593eb.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_593eb/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7c91/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d7c91.dir/build.make CMakeFiles/cmTC_d7c91.dir/build
+Building CXX object CMakeFiles/cmTC_d7c91.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_d7c91.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_d7c91.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_d7c91.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d7c91.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_d7c91/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f504/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f504.dir/build.make CMakeFiles/cmTC_8f504.dir/build
+Building CXX object CMakeFiles/cmTC_8f504.dir/OpenMPCheckVersion.cpp.o
+/usr/bin/g++   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_8f504.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_8f504.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_8f504.dir/OpenMPCheckVersion.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8f504.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_8f504/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_45ff2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_45ff2.dir/build.make CMakeFiles/cmTC_45ff2.dir/build
+Building C object CMakeFiles/cmTC_45ff2.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_45ff2.dir/test_mpi.c.o -MF CMakeFiles/cmTC_45ff2.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_45ff2.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_45ff2.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_45ff2/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70244/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_70244.dir/build.make CMakeFiles/cmTC_70244.dir/build
+Building CXX object CMakeFiles/cmTC_70244.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_70244.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_70244.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_70244.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_70244.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_70244/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f290a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f290a.dir/build.make CMakeFiles/cmTC_f290a.dir/build
+Building C object CMakeFiles/cmTC_f290a.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_f290a.dir/test_mpi.c.o -MF CMakeFiles/cmTC_f290a.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_f290a.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f290a.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_f290a/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_43ab6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_43ab6.dir/build.make CMakeFiles/cmTC_43ab6.dir/build
+Building CXX object CMakeFiles/cmTC_43ab6.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_43ab6.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_43ab6.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_43ab6.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_43ab6.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_43ab6/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7123/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c7123.dir/build.make CMakeFiles/cmTC_c7123.dir/build
+Building CXX object CMakeFiles/cmTC_c7123.dir/OpenMPCheckVersion.cpp.o
+/usr/bin/g++   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_c7123.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_c7123.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_c7123.dir/OpenMPCheckVersion.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c7123.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_c7123/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85665/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_85665.dir/build.make CMakeFiles/cmTC_85665.dir/build
+Building C object CMakeFiles/cmTC_85665.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_85665.dir/test_mpi.c.o -MF CMakeFiles/cmTC_85665.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_85665.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_85665.dir/test_mpi.c.o] Error 1
+make[1]: *** [cmTC_85665/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_74dff/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_74dff.dir/build.make CMakeFiles/cmTC_74dff.dir/build
+Building CXX object CMakeFiles/cmTC_74dff.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_74dff.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_74dff.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_74dff.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_74dff.dir/test_mpi.cpp.o] Error 1
+make[1]: *** [cmTC_74dff/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df8f6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_df8f6.dir/build.make CMakeFiles/cmTC_df8f6.dir/build
+Building C object CMakeFiles/cmTC_df8f6.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_df8f6.dir/test_mpi.c.o -MF CMakeFiles/cmTC_df8f6.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_df8f6.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_df8f6.dir/test_mpi.c.o] Error 1
+make[1]: *** [cmTC_df8f6/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fdf18/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fdf18.dir/build.make CMakeFiles/cmTC_fdf18.dir/build
+Building CXX object CMakeFiles/cmTC_fdf18.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_fdf18.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_fdf18.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_fdf18.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_fdf18.dir/test_mpi.cpp.o] Error 1
+make[1]: *** [cmTC_fdf18/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_28afd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_28afd.dir/build.make CMakeFiles/cmTC_28afd.dir/build
+Building CXX object CMakeFiles/cmTC_28afd.dir/OpenMPCheckVersion.cpp.o
+/usr/bin/g++   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_28afd.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_28afd.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_28afd.dir/OpenMPCheckVersion.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/cmTC_28afd.dir/OpenMPCheckVersion.cpp.o] Error 1
+make[1]: *** [cmTC_28afd/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_015f2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_015f2.dir/build.make CMakeFiles/cmTC_015f2.dir/build
+Building C object CMakeFiles/cmTC_015f2.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_015f2.dir/test_mpi.c.o -MF CMakeFiles/cmTC_015f2.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_015f2.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_015f2.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_015f2/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bfc81/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bfc81.dir/build.make CMakeFiles/cmTC_bfc81.dir/build
+Building CXX object CMakeFiles/cmTC_bfc81.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_bfc81.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_bfc81.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_bfc81.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bfc81.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_bfc81/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_096d3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_096d3.dir/build.make CMakeFiles/cmTC_096d3.dir/build
+Building C object CMakeFiles/cmTC_096d3.dir/test_mpi.c.o
+/usr/bin/gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_096d3.dir/test_mpi.c.o -MF CMakeFiles/cmTC_096d3.dir/test_mpi.c.o.d -o CMakeFiles/cmTC_096d3.dir/test_mpi.c.o -c /opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c
+/opt/homebrew/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.24/Modules/FindMPI/test_mpi.c:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_096d3.dir/test_mpi.c.o] Error 1
+make: *** [cmTC_096d3/fast] Error 2
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_489bb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_489bb.dir/build.make CMakeFiles/cmTC_489bb.dir/build
+Building CXX object CMakeFiles/cmTC_489bb.dir/test_mpi.cpp.o
+/usr/bin/g++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_489bb.dir/test_mpi.cpp.o -MF CMakeFiles/cmTC_489bb.dir/test_mpi.cpp.o.d -o CMakeFiles/cmTC_489bb.dir/test_mpi.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: 'mpi.h' file not found
+#include <mpi.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_489bb.dir/test_mpi.cpp.o] Error 1
+make: *** [cmTC_489bb/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c7e3b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c7e3b.dir/build.make CMakeFiles/cmTC_c7e3b.dir/build
+Building CXX object CMakeFiles/cmTC_c7e3b.dir/OpenMPCheckVersion.cpp.o
+/usr/bin/g++   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -MD -MT CMakeFiles/cmTC_c7e3b.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_c7e3b.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_c7e3b.dir/OpenMPCheckVersion.cpp.o -c "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
+/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c7e3b.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_c7e3b/fast] Error 2
+
+
+

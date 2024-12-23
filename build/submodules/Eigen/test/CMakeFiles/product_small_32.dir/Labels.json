@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/submodules/Eigen/test/product_small.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "product_small_32"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/submodules/Eigen/test/array_of_string.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "array_of_string"
+	}
+}

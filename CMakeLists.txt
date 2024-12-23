@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.4...3.18)
+
+PROJECT(transfer_matrix CXX)
+
+# Hack for Apple to find threads
+IF(APPLE)
+    set(CMAKE_THREAD_LIBS_INIT "-lpthread")
+    set(CMAKE_HAVE_THREADS_LIBRARY 1)
+    set(CMAKE_USE_WIN32_THREADS_INIT 0)
+    set(CMAKE_USE_PTHREADS_INIT 1)
+    set(THREADS_PREFER_PTHREAD_FLAG ON)
+ENDIF()
+
+# find MPI
+IF (USE_MPI)
+    FIND_PACKAGE(MPI REQUIRED)
+    IF (MPI_FOUND)
+        INCLUDE_DIRECTORIES(${MPI_CXX_INCLUDE_PATH})
+    ENDIF()
+ENDIF()
+
+
+ADD_SUBDIRECTORY(submodules/pybind11)
+ADD_SUBDIRECTORY(submodules/Eigen)
+ADD_SUBDIRECTORY(model)
+#ADD_SUBDIRECTORY(tests)
