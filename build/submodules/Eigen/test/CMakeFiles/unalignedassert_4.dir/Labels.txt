@@ -1,4 +1,0 @@
-# Target labels
- BuildOfficial
-# Source files and their labels
-/Users/adithyasriram/Research Files/Khemani/repos/transfer_matrix/submodules/Eigen/test/unalignedassert.cpp
