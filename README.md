@@ -9,4 +9,4 @@ Plots below show the correlation function as we cutoff trajectories which spread
 
 <img width="1820" alt="image" src="https://github.com/user-attachments/assets/32b4858e-f6a5-496e-8c35-4b812f91f19e" />
 
-Note: this code has not been rigorously error tested.
+Note: this code has not been rigorously error tested. Main code is located in the model folder.
